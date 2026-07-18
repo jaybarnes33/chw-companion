@@ -1,0 +1,22 @@
+{
+  "trainable_rows": 20,
+  "splits": {
+    "train": 18,
+    "val": 1,
+    "test": 1
+  },
+  "licenses": {
+    "demo": 20
+  },
+  "domains": {
+    "general": 20
+  },
+  "sources": {
+    "demo": 20
+  },
+  "notes": [
+    "Bible groups prevent verse leakage across splits.",
+    "Health rows are EN-only seeds for native-speaker / model review.",
+    "CC-BY-NC sources must not ship in commercial products without clearance."
+  ]
+}

@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    ports:
+      - "5434:5432"
+    environment:
+      POSTGRES_USER: chw
+      POSTGRES_PASSWORD: chw
+      POSTGRES_DB: chw_companion
+    volumes:
+      - chw_pg_data:/var/lib/postgresql/data
+
+volumes:
+  chw_pg_data:

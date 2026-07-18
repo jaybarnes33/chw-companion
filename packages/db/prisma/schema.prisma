@@ -1,0 +1,111 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Case {
+  id               String               @id
+  chwId            String
+  patientType      PatientType
+  patientName      String?
+  patientSex       PatientSex?
+  ageValue         Int?
+  ageUnit          AgeUnit?
+  community        String?
+  phone            String?
+  caregiverName    String?
+  caregiverPhone   String?
+  maternalStatus   MaternalStatus?
+  gestationalWeeks Int?
+  notes            String?
+  consentAt        DateTime?
+  status           CaseStatus           @default(IN_PROGRESS)
+  createdAt        DateTime             @default(now())
+  updatedAt        DateTime             @updatedAt
+  syncedAt         DateTime?
+  riskTier         RiskTier?
+  responses        ChecklistResponse[]
+  referral         Referral?
+  timeline         TimelineEvent[]
+
+  @@index([chwId])
+  @@index([riskTier])
+  @@index([patientType])
+  @@index([status])
+  @@index([community])
+}
+
+model ChecklistResponse {
+  id      String  @id
+  caseId  String
+  case    Case    @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  itemKey String
+  answer  Boolean
+
+  @@unique([caseId, itemKey])
+}
+
+model Referral {
+  id        String         @id
+  caseId    String         @unique
+  case      Case           @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  status    ReferralStatus @default(REFERRED)
+  facility  String?
+  updatedAt DateTime       @updatedAt
+}
+
+model TimelineEvent {
+  id        String   @id @default(cuid())
+  caseId    String
+  case      Case     @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  kind      String
+  message   String
+  createdAt DateTime @default(now())
+
+  @@index([caseId])
+}
+
+enum PatientType {
+  MATERNAL
+  NEWBORN
+  UNDER5
+}
+
+enum PatientSex {
+  FEMALE
+  MALE
+  UNKNOWN
+}
+
+enum AgeUnit {
+  DAYS
+  MONTHS
+  YEARS
+}
+
+enum MaternalStatus {
+  PREGNANT
+  POSTPARTUM
+}
+
+enum CaseStatus {
+  IN_PROGRESS
+  COMPLETED
+}
+
+enum RiskTier {
+  RED
+  YELLOW
+  GREEN
+}
+
+enum ReferralStatus {
+  REFERRED
+  IN_TRANSIT
+  ARRIVED
+  RESOLVED
+}

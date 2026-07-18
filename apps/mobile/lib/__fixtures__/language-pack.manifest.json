@@ -1,0 +1,22 @@
+{
+  "pack_id": "chw-dagbani-lang-v0.1.0",
+  "version": "0.1.0",
+  "status": "experimental",
+  "languages": ["en", "dag"],
+  "components": {
+    "translation": {
+      "engine": "onnxruntime",
+      "task": "en->dag",
+      "prefix": "translate English to Dagbani: ",
+      "ready": false,
+      "files": []
+    },
+    "tts": {
+      "engine": "sherpa-onnx",
+      "ready": false,
+      "files": []
+    }
+  },
+  "total_bytes": 0,
+  "license_status": "uncleared"
+}

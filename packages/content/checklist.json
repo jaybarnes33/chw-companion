@@ -1,0 +1,182 @@
+{
+  "version": "0.1.0-prototype",
+  "disclaimer": "Prototype content transcribed from public WHO/UNICEF and Ghana Health Service job aids. NOT yet reviewed by a qualified health professional. Must be clinically validated before any real-world use.",
+  "items": [
+    {
+      "key": "maternal_bleeding",
+      "category": "MATERNAL",
+      "question": "Is there heavy vaginal bleeding?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately to the nearest facility with emergency obstetric care.",
+      "source": "WHO Pregnancy, Childbirth, Postpartum and Newborn Care (IMPAC) — community danger signs in pregnancy"
+    },
+    {
+      "key": "maternal_convulsions",
+      "category": "MATERNAL",
+      "question": "Has the woman had convulsions or fits?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately — possible eclampsia. Keep her safe from injury while arranging transport.",
+      "source": "WHO IMPAC — danger signs in pregnancy and postpartum"
+    },
+    {
+      "key": "maternal_severe_headache_blurred_vision",
+      "category": "MATERNAL",
+      "question": "Does she have a severe headache with blurred vision?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately — possible pre-eclampsia.",
+      "source": "WHO IMPAC — danger signs in pregnancy"
+    },
+    {
+      "key": "maternal_high_fever",
+      "category": "MATERNAL",
+      "question": "Does she have a high fever?",
+      "riskIfTrue": "YELLOW",
+      "action": "Assess further and refer if fever persists or she appears unwell.",
+      "source": "WHO IMPAC — danger signs in pregnancy and postpartum"
+    },
+    {
+      "key": "maternal_severe_abdominal_pain",
+      "category": "MATERNAL",
+      "question": "Does she have severe abdominal pain?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately.",
+      "source": "WHO IMPAC — danger signs in pregnancy"
+    },
+    {
+      "key": "maternal_reduced_fetal_movement",
+      "category": "MATERNAL",
+      "question": "Has fetal movement reduced or stopped?",
+      "riskIfTrue": "YELLOW",
+      "action": "Refer for assessment as soon as possible.",
+      "source": "WHO IMPAC — danger signs in pregnancy"
+    },
+    {
+      "key": "maternal_fluid_gush",
+      "category": "MATERNAL",
+      "question": "Has there been a sudden gush of fluid from the vagina before labour?",
+      "riskIfTrue": "YELLOW",
+      "action": "Refer for assessment — possible premature rupture of membranes.",
+      "source": "WHO IMPAC — danger signs in pregnancy"
+    },
+    {
+      "key": "maternal_foul_discharge",
+      "category": "MATERNAL",
+      "question": "Is there foul-smelling vaginal discharge (pregnancy or postpartum)?",
+      "riskIfTrue": "YELLOW",
+      "action": "Refer for assessment — possible infection.",
+      "source": "WHO IMPAC — danger signs in pregnancy and postpartum"
+    },
+    {
+      "key": "newborn_unable_to_feed",
+      "category": "NEWBORN",
+      "question": "Is the newborn unable to breastfeed or drink at all?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately — general danger sign.",
+      "source": "WHO IMCI Chart Booklet — general danger signs"
+    },
+    {
+      "key": "newborn_vomits_everything",
+      "category": "NEWBORN",
+      "question": "Does the newborn vomit everything it is fed?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately — general danger sign.",
+      "source": "WHO IMCI Chart Booklet — general danger signs"
+    },
+    {
+      "key": "newborn_convulsions",
+      "category": "NEWBORN",
+      "question": "Has the newborn had convulsions?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately — general danger sign.",
+      "source": "WHO IMCI Chart Booklet — general danger signs"
+    },
+    {
+      "key": "newborn_lethargic",
+      "category": "NEWBORN",
+      "question": "Is the newborn lethargic, unconscious, or moving only when stimulated?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately — general danger sign.",
+      "source": "WHO IMCI Chart Booklet — general danger signs, young infant"
+    },
+    {
+      "key": "newborn_fast_breathing",
+      "category": "NEWBORN",
+      "question": "Is the newborn breathing very fast or with difficulty?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately — possible severe infection.",
+      "source": "WHO IMCI Chart Booklet — young infant danger signs"
+    },
+    {
+      "key": "newborn_low_weight_low_temp",
+      "category": "NEWBORN",
+      "question": "Does the newborn have low body weight or feel cold to the touch?",
+      "riskIfTrue": "YELLOW",
+      "action": "Keep warm with skin-to-skin contact and refer for assessment.",
+      "source": "WHO IMCI Chart Booklet — low weight and hypothermia guidance"
+    },
+    {
+      "key": "newborn_umbilical_discharge",
+      "category": "NEWBORN",
+      "question": "Is the umbilical stump bleeding, red, or discharging?",
+      "riskIfTrue": "YELLOW",
+      "action": "Refer for assessment — possible infection.",
+      "source": "WHO/USAID Postnatal Care Pre-Discharge Checklist"
+    },
+    {
+      "key": "under5_unable_to_drink",
+      "category": "UNDER5",
+      "question": "Is the child unable to drink or breastfeed anything?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately — general danger sign.",
+      "source": "WHO IMCI Chart Booklet — general danger signs"
+    },
+    {
+      "key": "under5_vomits_everything",
+      "category": "UNDER5",
+      "question": "Does the child vomit everything it is given?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately — general danger sign.",
+      "source": "WHO IMCI Chart Booklet — general danger signs"
+    },
+    {
+      "key": "under5_convulsions",
+      "category": "UNDER5",
+      "question": "Has the child had convulsions during this illness?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately — general danger sign.",
+      "source": "WHO IMCI Chart Booklet — general danger signs"
+    },
+    {
+      "key": "under5_lethargic_unconscious",
+      "category": "UNDER5",
+      "question": "Is the child unusually sleepy, difficult to wake, or unconscious?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately — general danger sign.",
+      "source": "WHO IMCI Chart Booklet — general danger signs"
+    },
+    {
+      "key": "under5_chest_indrawing",
+      "category": "UNDER5",
+      "question": "Does the child's lower chest wall pull in when breathing?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately — sign of severe pneumonia.",
+      "source": "WHO IMCI Chart Booklet — cough/difficult breathing assessment"
+    },
+    {
+      "key": "under5_diarrhea_sunken_eyes",
+      "category": "UNDER5",
+      "question": "Does the child have diarrhoea with sunken eyes or is unable to drink normally?",
+      "riskIfTrue": "YELLOW",
+      "action": "Assess for dehydration and refer if signs worsen.",
+      "source": "WHO IMCI Chart Booklet — diarrhoea assessment"
+    },
+    {
+      "key": "under5_severe_malnutrition",
+      "category": "UNDER5",
+      "question": "Does the child show visible severe wasting or swelling of both feet?",
+      "riskIfTrue": "RED",
+      "action": "Refer immediately — possible severe acute malnutrition.",
+      "source": "WHO IMCI Chart Booklet — malnutrition assessment"
+    }
+  ]
+}

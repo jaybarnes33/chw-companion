@@ -1,0 +1,2488 @@
+{
+  "version": "1.0.0",
+  "source": "Curated from Ghana Place Names (northern regions) plus common district capitals and Tamale area communities used in CHPS demos.",
+  "coverage": [
+    "Northern",
+    "North East",
+    "Savannah",
+    "Upper East",
+    "Upper West"
+  ],
+  "places": [
+    {
+      "name": "Aboabo",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Abrumase",
+      "district": "East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Achanyeri",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Achinayili",
+      "district": "Mion",
+      "region": "Northern"
+    },
+    {
+      "name": "Adaaribia",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Adayili",
+      "district": "Savelugu",
+      "region": "Northern"
+    },
+    {
+      "name": "Adayiri",
+      "district": "Tolon",
+      "region": "Northern"
+    },
+    {
+      "name": "Aduyeli",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Afayili",
+      "district": "Mion",
+      "region": "Northern"
+    },
+    {
+      "name": "Agbegikrom",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Agbelikame No.1",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Akpiokyeri",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Alfayinga",
+      "district": "Tolon",
+      "region": "Northern"
+    },
+    {
+      "name": "Baaduuri",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Baayiri",
+      "district": "Wa East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Baazu",
+      "district": "Jirapa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Babator",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Babile",
+      "district": "Lawra",
+      "region": "Upper West"
+    },
+    {
+      "name": "Babujan",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Bachongsa",
+      "district": "Builsa South",
+      "region": "Upper East"
+    },
+    {
+      "name": "Bador",
+      "district": "Bawku",
+      "region": "Upper East"
+    },
+    {
+      "name": "Baduli (mion)",
+      "district": "Mion",
+      "region": "Northern"
+    },
+    {
+      "name": "Baduli (nanumba)",
+      "district": "Nanumba South",
+      "region": "Northern"
+    },
+    {
+      "name": "Baka",
+      "district": "West Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Balai",
+      "district": "Kpandai",
+      "region": "Northern"
+    },
+    {
+      "name": "Bambalayuro",
+      "district": "Sawla-Tuna-Kalba",
+      "region": "Savannah"
+    },
+    {
+      "name": "Banda Nkwanta",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Bangbale",
+      "district": "Chereponi",
+      "region": "North East"
+    },
+    {
+      "name": "Banwon",
+      "district": "Lambussie Karni",
+      "region": "Upper West"
+    },
+    {
+      "name": "Basebelle",
+      "district": "Nandom",
+      "region": "Upper West"
+    },
+    {
+      "name": "Bawku",
+      "district": "Bawku",
+      "region": "Upper East"
+    },
+    {
+      "name": "Bayeba Tiging",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Bellekpong",
+      "district": "Wa East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Bichemboi",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Bilige",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Bilinsa",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Bimbago",
+      "district": "Bunkpurugu Nakpanduri",
+      "region": "North East"
+    },
+    {
+      "name": "Bimbilla",
+      "district": "Nanumba North",
+      "region": "Northern"
+    },
+    {
+      "name": "Bimpella",
+      "district": "Tempane",
+      "region": "Upper East"
+    },
+    {
+      "name": "Bimpielega",
+      "district": "Pusiga",
+      "region": "Upper East"
+    },
+    {
+      "name": "Binaba",
+      "district": "Bawku West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Binduli",
+      "district": "Karaga",
+      "region": "Northern"
+    },
+    {
+      "name": "Binduri",
+      "district": "Binduri",
+      "region": "Upper East"
+    },
+    {
+      "name": "Bisigu",
+      "district": "West Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Biung",
+      "district": "Talensi",
+      "region": "Upper East"
+    },
+    {
+      "name": "Boakyipe",
+      "district": "Central Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Boaterigu",
+      "district": "Bunkpurugu Nakpanduri",
+      "region": "North East"
+    },
+    {
+      "name": "Bodere",
+      "district": "Tatale Sanguli",
+      "region": "Northern"
+    },
+    {
+      "name": "Bole",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Bolgatanga",
+      "district": "Bolgatanga",
+      "region": "Upper East"
+    },
+    {
+      "name": "Bolni",
+      "district": "Nanumba North",
+      "region": "Northern"
+    },
+    {
+      "name": "Bong",
+      "district": "Mion",
+      "region": "Northern"
+    },
+    {
+      "name": "Bongo",
+      "district": "Bongo",
+      "region": "Upper East"
+    },
+    {
+      "name": "Bonia",
+      "district": "Kassena-Nankana",
+      "region": "Upper East"
+    },
+    {
+      "name": "Boya",
+      "district": "Bawku West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Brifo",
+      "district": "Lawra",
+      "region": "Upper West"
+    },
+    {
+      "name": "Buakudow",
+      "district": "West Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Bugri",
+      "district": "Tempane",
+      "region": "Upper East"
+    },
+    {
+      "name": "Bugubelle",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Buguya",
+      "district": "Gushegu",
+      "region": "Northern"
+    },
+    {
+      "name": "Buguyili",
+      "district": "Mion",
+      "region": "Northern"
+    },
+    {
+      "name": "Buipe",
+      "district": "Central Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Bujan",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Bulenga",
+      "district": "Wa East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Bunkpurugu",
+      "district": "Bunkpurugu Nakpanduri",
+      "region": "North East"
+    },
+    {
+      "name": "Burugu",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Butei",
+      "district": "Central Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Carpenter",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Chagbani",
+      "district": "Saboba",
+      "region": "Northern"
+    },
+    {
+      "name": "Challu",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Chamba",
+      "district": "Nanumba North",
+      "region": "Northern"
+    },
+    {
+      "name": "Chambuligu",
+      "district": "East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Chandayili",
+      "district": "East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Changli",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Changnayili",
+      "district": "Sagnarigu",
+      "region": "Northern"
+    },
+    {
+      "name": "Chapuri",
+      "district": "Jirapa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Chereponi",
+      "district": "Chereponi",
+      "region": "North East"
+    },
+    {
+      "name": "Chiana",
+      "district": "Kassena-Nankana West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Chirifoyiri",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Choggu",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Chokosipe",
+      "district": "Central Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Chuchuliga",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "D.c.kura",
+      "district": "Mion",
+      "region": "Northern"
+    },
+    {
+      "name": "Daazio",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Dabo",
+      "district": "Wa West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Dabope",
+      "district": "Central Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Daboya",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Daboyeri",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Daffiama",
+      "district": "Daffiama-Bussie-Issa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Dagbiriboari",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Dakpema",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Dakrupe",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Damongo",
+      "district": "West Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Danayili",
+      "district": "Nanumba South",
+      "region": "Northern"
+    },
+    {
+      "name": "Dariguoyiri",
+      "district": "Wa West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Demon",
+      "district": "Saboba",
+      "region": "Northern"
+    },
+    {
+      "name": "Demonaayili",
+      "district": "Nanumba North",
+      "region": "Northern"
+    },
+    {
+      "name": "Denkerepe",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Deriyiri",
+      "district": "Jirapa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Dibisi",
+      "district": "West Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Dimajan",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Dintigi",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Dinyogo",
+      "district": "Gushegu",
+      "region": "Northern"
+    },
+    {
+      "name": "Dodiyiri",
+      "district": "Wa East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Dohini",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Doli",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Dolibizon",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Doninga",
+      "district": "Builsa South",
+      "region": "Upper East"
+    },
+    {
+      "name": "Duko",
+      "district": "Savelugu",
+      "region": "Northern"
+    },
+    {
+      "name": "Dungu",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Duori",
+      "district": "Jirapa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Dupare",
+      "district": "Wa East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Duuni",
+      "district": "Yendi",
+      "region": "Northern"
+    },
+    {
+      "name": "Duunonyuali",
+      "district": "Sissala West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Ekumdipe A",
+      "district": "Kpandai",
+      "region": "Northern"
+    },
+    {
+      "name": "Farfar",
+      "district": "Garu",
+      "region": "Upper East"
+    },
+    {
+      "name": "Feo",
+      "district": "Bongo",
+      "region": "Upper East"
+    },
+    {
+      "name": "Fielmuo",
+      "district": "Sissala West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Fumbisi",
+      "district": "Builsa South",
+      "region": "Upper East"
+    },
+    {
+      "name": "Funsi",
+      "district": "Wa East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Ga",
+      "district": "Wa West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Gaa",
+      "district": "Gushegu",
+      "region": "Northern"
+    },
+    {
+      "name": "Gaani",
+      "district": "Kassena-Nankana",
+      "region": "Upper East"
+    },
+    {
+      "name": "Gaapare",
+      "district": "Sissala West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Gambaga",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Gangoboka",
+      "district": "Nabdam",
+      "region": "Upper East"
+    },
+    {
+      "name": "Ganzeeri",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Garin Dade",
+      "district": "Kpandai",
+      "region": "Northern"
+    },
+    {
+      "name": "Garin Dogo",
+      "district": "Kpandai",
+      "region": "Northern"
+    },
+    {
+      "name": "Garinkuka",
+      "district": "Chereponi",
+      "region": "North East"
+    },
+    {
+      "name": "Garu",
+      "district": "Garu",
+      "region": "Upper East"
+    },
+    {
+      "name": "Gbaliwob",
+      "district": "Wa West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Gbambu",
+      "district": "Gushegu",
+      "region": "Northern"
+    },
+    {
+      "name": "Gbandaa",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Gbedema",
+      "district": "Builsa South",
+      "region": "Upper East"
+    },
+    {
+      "name": "Gbedembilisi",
+      "district": "Builsa South",
+      "region": "Upper East"
+    },
+    {
+      "name": "Gbongbonduori",
+      "district": "Sawla-Tuna-Kalba",
+      "region": "Savannah"
+    },
+    {
+      "name": "Gia",
+      "district": "Kassena-Nankana",
+      "region": "Upper East"
+    },
+    {
+      "name": "Gida Wichie",
+      "district": "East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Gindabor",
+      "district": "Sawla-Tuna-Kalba",
+      "region": "Savannah"
+    },
+    {
+      "name": "Gonggo",
+      "district": "Wa West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Goriyiri",
+      "district": "Nadowli Kaleo",
+      "region": "Upper West"
+    },
+    {
+      "name": "Gowrie",
+      "district": "Bongo",
+      "region": "Upper East"
+    },
+    {
+      "name": "Gozeisi",
+      "district": "Bawku West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Grunshie Zongo",
+      "district": "East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Grupe",
+      "district": "West Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Gua",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Guabuliga",
+      "district": "West Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Gulubi",
+      "district": "Kpandai",
+      "region": "Northern"
+    },
+    {
+      "name": "Gumbihini",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Gunaayili",
+      "district": "Karaga",
+      "region": "Northern"
+    },
+    {
+      "name": "Gundari",
+      "district": "Talensi",
+      "region": "Upper East"
+    },
+    {
+      "name": "Gundo",
+      "district": "Nanumba North",
+      "region": "Northern"
+    },
+    {
+      "name": "Gunguni",
+      "district": "Nanumba South",
+      "region": "Northern"
+    },
+    {
+      "name": "Gunsi",
+      "district": "Mion",
+      "region": "Northern"
+    },
+    {
+      "name": "Guntingli",
+      "district": "Savelugu",
+      "region": "Northern"
+    },
+    {
+      "name": "Guri",
+      "district": "Jirapa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Gushegu",
+      "district": "Gushegu",
+      "region": "Northern"
+    },
+    {
+      "name": "Gwollu",
+      "district": "Sissala West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Gyafo",
+      "district": "North East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Halembei",
+      "district": "Wa East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Hamile",
+      "district": "Lambussie Karni",
+      "region": "Upper West"
+    },
+    {
+      "name": "Hiel",
+      "district": "Sissala West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Jagere",
+      "district": "Saboba",
+      "region": "Northern"
+    },
+    {
+      "name": "Jaguriyili",
+      "district": "Tolon",
+      "region": "Northern"
+    },
+    {
+      "name": "Jakpa",
+      "district": "Chereponi",
+      "region": "North East"
+    },
+    {
+      "name": "Janikura",
+      "district": "Central Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Jankonyili",
+      "district": "Zabzugu",
+      "region": "Northern"
+    },
+    {
+      "name": "Jefiyiri",
+      "district": "Jirapa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Jegrido",
+      "district": "Nanumba North",
+      "region": "Northern"
+    },
+    {
+      "name": "Jerayili",
+      "district": "East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Jeyiri",
+      "district": "Sawla-Tuna-Kalba",
+      "region": "Savannah"
+    },
+    {
+      "name": "Jilinkon",
+      "district": "Sawla-Tuna-Kalba",
+      "region": "Savannah"
+    },
+    {
+      "name": "Jirapa",
+      "district": "Jirapa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Jisonayili",
+      "district": "Sagnerigu",
+      "region": "Northern"
+    },
+    {
+      "name": "Jolinyiri",
+      "district": "Daffiama-Bussie-Issa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Juanayili",
+      "district": "Nanumba North",
+      "region": "Northern"
+    },
+    {
+      "name": "Kadema",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kafaba",
+      "district": "East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Kakalapari",
+      "district": "Wa West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Kalariga",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Kalijiisa",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kalpohin",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Kambaa",
+      "district": "Nandom",
+      "region": "Upper West"
+    },
+    {
+      "name": "Kanaansa",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kanakulai",
+      "district": "North East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Kandia",
+      "district": "Wa East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Kanjarga",
+      "district": "Builsa South",
+      "region": "Upper East"
+    },
+    {
+      "name": "Karaga",
+      "district": "Karaga",
+      "region": "Northern"
+    },
+    {
+      "name": "Karimenga",
+      "district": "West Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Katua",
+      "district": "Wa East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Kejetia",
+      "district": "Talensi",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kitare",
+      "district": "Kpandai",
+      "region": "Northern"
+    },
+    {
+      "name": "Kobdem",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kogri",
+      "district": "Jirapa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Kojoboni",
+      "district": "Kpandai",
+      "region": "Northern"
+    },
+    {
+      "name": "Kojobonipe",
+      "district": "Kpandai",
+      "region": "Northern"
+    },
+    {
+      "name": "Kojope",
+      "district": "Central Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Kokoligu",
+      "district": "Nandom",
+      "region": "Upper West"
+    },
+    {
+      "name": "Kolayili",
+      "district": "North East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Kolinvai",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Kologo",
+      "district": "Kassena-Nankana",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kolpeligu",
+      "district": "Pusiga",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kolsabulga",
+      "district": "Garu",
+      "region": "Upper East"
+    },
+    {
+      "name": "Koma",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Komoayili",
+      "district": "Karaga",
+      "region": "Northern"
+    },
+    {
+      "name": "Konkori Camp",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Korinyiri",
+      "district": "Nadowli Kaleo",
+      "region": "Upper West"
+    },
+    {
+      "name": "Kpalayili",
+      "district": "North East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Kpalguni",
+      "district": "East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Kpalisogu",
+      "district": "Kumbungu",
+      "region": "Northern"
+    },
+    {
+      "name": "Kpalsako",
+      "district": "Karaga",
+      "region": "Northern"
+    },
+    {
+      "name": "Kpalsogu",
+      "district": "Tolon",
+      "region": "Northern"
+    },
+    {
+      "name": "Kpalugu",
+      "district": "Binduri",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kpandai",
+      "district": "Kpandai",
+      "region": "Northern"
+    },
+    {
+      "name": "Kpankpan",
+      "district": "Kpandai",
+      "region": "Northern"
+    },
+    {
+      "name": "Kpasenkpe",
+      "district": "West Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Kpataar",
+      "district": "Talensi",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kpatiritinga",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Kpatorigu",
+      "district": "Mamprugu-Moagduri",
+      "region": "North East"
+    },
+    {
+      "name": "Kpembe",
+      "district": "East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Kpembik",
+      "district": "Saboba",
+      "region": "Northern"
+    },
+    {
+      "name": "Kpikpira",
+      "district": "Tempane",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kpukpabobgu",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Kpukparigbinni",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Kpunduli",
+      "district": "Nanton",
+      "region": "Northern"
+    },
+    {
+      "name": "Kuduli",
+      "district": "Karaga",
+      "region": "Northern"
+    },
+    {
+      "name": "Kugpela",
+      "district": "Garu",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kugri",
+      "district": "Garu",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kugsabla",
+      "district": "Tempane",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kuguriziegu",
+      "district": "Tempane",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kukkagbinni",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Kukobila",
+      "district": "Savelugu",
+      "region": "Northern"
+    },
+    {
+      "name": "Kukpaligu",
+      "district": "Zabzugu",
+      "region": "Northern"
+    },
+    {
+      "name": "Kukuo",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Kukuo (tamale)",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Kulfuo",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Kulkpanga",
+      "district": "Yendi",
+      "region": "Northern"
+    },
+    {
+      "name": "Kulkpeni",
+      "district": "Mion",
+      "region": "Northern"
+    },
+    {
+      "name": "Kulkpong",
+      "district": "Wa East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Kulmasa",
+      "district": "Sawla-Tuna-Kalba",
+      "region": "Savannah"
+    },
+    {
+      "name": "Kulpi",
+      "district": "East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Kultamse",
+      "district": "Pusiga",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kulumasa",
+      "district": "Bongo",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kulunga",
+      "district": "West Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Kulungungu",
+      "district": "Pusiga",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kulupielugu",
+      "district": "Pusiga",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kumbungu",
+      "district": "Kumbungu",
+      "region": "Northern"
+    },
+    {
+      "name": "Kunyukuo",
+      "district": "Lawra",
+      "region": "Upper West"
+    },
+    {
+      "name": "Kunzokala",
+      "district": "Jirapa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Kupelugu",
+      "district": "Karaga",
+      "region": "Northern"
+    },
+    {
+      "name": "Kupulima",
+      "district": "Sissala West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Kuroboi",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Kusanaba",
+      "district": "Bawku West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Kusawgu",
+      "district": "Central Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Kwame Kwesi",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Kwapun",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Lamakara",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Lamashegu",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Lambo",
+      "district": "Central Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Lambussie",
+      "district": "Lambussie Karni",
+      "region": "Upper West"
+    },
+    {
+      "name": "Langbina",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Langbinsi",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Larabanga",
+      "district": "West Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Lawra",
+      "district": "Lawra",
+      "region": "Upper West"
+    },
+    {
+      "name": "Lingbinsi",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Longsa (sandema)",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Lucene",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Makayili",
+      "district": "Nanumba North",
+      "region": "Northern"
+    },
+    {
+      "name": "Maluwe",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Mamayili",
+      "district": "Central Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Mamkuma",
+      "district": "Sawla-Tuna-Kalba",
+      "region": "Savannah"
+    },
+    {
+      "name": "Mankarigu",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Mankuma",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Masaka",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Mbanayili",
+      "district": "Kumbungu",
+      "region": "Northern"
+    },
+    {
+      "name": "Mbatinga",
+      "district": "Yendi",
+      "region": "Northern"
+    },
+    {
+      "name": "Mbosumbo",
+      "district": "Gushegu",
+      "region": "Northern"
+    },
+    {
+      "name": "Mempeasem",
+      "district": "West Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Mettoh",
+      "district": "Lawra",
+      "region": "Upper West"
+    },
+    {
+      "name": "Mines",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Missiga",
+      "district": "Bawku",
+      "region": "Upper East"
+    },
+    {
+      "name": "Mognori",
+      "district": "West Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Monojan",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Moyiri",
+      "district": "Daffiama-Bussie-Issa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Mozio",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Naboal",
+      "district": "Zabzugu",
+      "region": "Northern"
+    },
+    {
+      "name": "Nabogu",
+      "district": "Savelugu",
+      "region": "Northern"
+    },
+    {
+      "name": "Nabugang",
+      "district": "Nandom",
+      "region": "Upper West"
+    },
+    {
+      "name": "Nabugubelle",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Nabukpeni",
+      "district": "Chereponi",
+      "region": "North East"
+    },
+    {
+      "name": "Nabuli",
+      "district": "Gushegu",
+      "region": "Northern"
+    },
+    {
+      "name": "Nabulugu",
+      "district": "Karaga",
+      "region": "Northern"
+    },
+    {
+      "name": "Nadowli",
+      "district": "Nadowli Kaleo",
+      "region": "Upper West"
+    },
+    {
+      "name": "Nafkoliga",
+      "district": "Binduri",
+      "region": "Upper East"
+    },
+    {
+      "name": "Nagboo",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Nahuyili",
+      "district": "Zabzugu",
+      "region": "Northern"
+    },
+    {
+      "name": "Nakpanduri",
+      "district": "Bunkpurugu Nakpanduri",
+      "region": "North East"
+    },
+    {
+      "name": "Nakpanzong",
+      "district": "Karaga",
+      "region": "Northern"
+    },
+    {
+      "name": "Nakpayili",
+      "district": "Nanumba South",
+      "region": "Northern"
+    },
+    {
+      "name": "Nakundugu",
+      "district": "Karaga",
+      "region": "Northern"
+    },
+    {
+      "name": "Nakurugu",
+      "district": "Bunkpurugu Nakpanduri",
+      "region": "North East"
+    },
+    {
+      "name": "Nakwabi",
+      "district": "Sawla-Tuna-Kalba",
+      "region": "Savannah"
+    },
+    {
+      "name": "Nalerigu",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Nalori",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Namaasim",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Namiyili",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Nanchieyir",
+      "district": "Talensi",
+      "region": "Upper East"
+    },
+    {
+      "name": "Nandom",
+      "district": "Nandom",
+      "region": "Upper West"
+    },
+    {
+      "name": "Nangalkinia",
+      "district": "Kassena-Nankana",
+      "region": "Upper East"
+    },
+    {
+      "name": "Nangodi",
+      "district": "Nabdam",
+      "region": "Upper East"
+    },
+    {
+      "name": "Nangruma",
+      "district": "Mamprugu-Moagduri",
+      "region": "North East"
+    },
+    {
+      "name": "Nanton",
+      "district": "Nanton",
+      "region": "Northern"
+    },
+    {
+      "name": "Nanton Kurugu",
+      "district": "Nanton",
+      "region": "Northern"
+    },
+    {
+      "name": "Nanyeeri",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Nasia",
+      "district": "West Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Nasuan",
+      "district": "Yunyoo-Nasuan",
+      "region": "North East"
+    },
+    {
+      "name": "Natinga",
+      "district": "Tempane",
+      "region": "Upper East"
+    },
+    {
+      "name": "Navrongo",
+      "district": "Kassena-Nankana",
+      "region": "Upper East"
+    },
+    {
+      "name": "Nawognia",
+      "district": "Kassena-Nankana",
+      "region": "Upper East"
+    },
+    {
+      "name": "Nayagnia",
+      "district": "Kassena-Nankana",
+      "region": "Upper East"
+    },
+    {
+      "name": "Nayeri",
+      "district": "West Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Nayiri",
+      "district": "Saboba",
+      "region": "Northern"
+    },
+    {
+      "name": "Ningboyili",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Nogsenia",
+      "district": "Kassena-Nankana",
+      "region": "Upper East"
+    },
+    {
+      "name": "Noyaloabi",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Ntereso",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Nung",
+      "district": "Talensi",
+      "region": "Upper East"
+    },
+    {
+      "name": "Nyivil",
+      "district": "Sissala West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Nyohini",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Nyong",
+      "district": "Karaga",
+      "region": "Northern"
+    },
+    {
+      "name": "Obaalaanu",
+      "district": "Gushegu",
+      "region": "Northern"
+    },
+    {
+      "name": "Old Makango",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Oti River",
+      "district": "Kpandai",
+      "region": "Northern"
+    },
+    {
+      "name": "Paga",
+      "district": "Kassena-Nankana West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Paga Buru",
+      "district": "Kassena-Nankana West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Piiri",
+      "district": "Nandom",
+      "region": "Upper West"
+    },
+    {
+      "name": "Pina",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Ping",
+      "district": "Jirapa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Pulima",
+      "district": "Sissala West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Pulimakom",
+      "district": "Pusiga",
+      "region": "Upper East"
+    },
+    {
+      "name": "Pungu",
+      "district": "Kassena-Nankana",
+      "region": "Upper East"
+    },
+    {
+      "name": "Pusiga",
+      "district": "Pusiga",
+      "region": "Upper East"
+    },
+    {
+      "name": "Pusuga",
+      "district": "Nanumba North",
+      "region": "Northern"
+    },
+    {
+      "name": "Pwalugu",
+      "district": "Talensi",
+      "region": "Upper East"
+    },
+    {
+      "name": "Rus",
+      "district": "Sissala West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Saboba",
+      "district": "Saboba",
+      "region": "Northern"
+    },
+    {
+      "name": "Sabon Gida",
+      "district": "Kpandai",
+      "region": "Northern"
+    },
+    {
+      "name": "Sabongida",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Sabonjida",
+      "district": "Nanumba North",
+      "region": "Northern"
+    },
+    {
+      "name": "Sagnarigu",
+      "district": "Sagnarigu",
+      "region": "Northern"
+    },
+    {
+      "name": "Sagnerigu",
+      "district": "Sagnerigu",
+      "region": "Northern"
+    },
+    {
+      "name": "Sakasaka",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Sakote",
+      "district": "Nabdam",
+      "region": "Upper East"
+    },
+    {
+      "name": "Salaga",
+      "district": "East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Salnayili",
+      "district": "Nanumba North",
+      "region": "Northern"
+    },
+    {
+      "name": "Sandema",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Sang",
+      "district": "Mion",
+      "region": "Northern"
+    },
+    {
+      "name": "Sanguli",
+      "district": "Tatale Sanguli",
+      "region": "Northern"
+    },
+    {
+      "name": "Sanguli (saboba)",
+      "district": "Saboba",
+      "region": "Northern"
+    },
+    {
+      "name": "Sangyeri",
+      "district": "Sawla-Tuna-Kalba",
+      "region": "Savannah"
+    },
+    {
+      "name": "Sankana",
+      "district": "Nadowli Kaleo",
+      "region": "Upper West"
+    },
+    {
+      "name": "Santeng",
+      "district": "Talensi",
+      "region": "Upper East"
+    },
+    {
+      "name": "Santijan",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Sapeliga",
+      "district": "Bawku West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Savelugu",
+      "district": "Savelugu",
+      "region": "Northern"
+    },
+    {
+      "name": "Sawla",
+      "district": "Sawla-Tuna-Kalba",
+      "region": "Savannah"
+    },
+    {
+      "name": "Sawobe",
+      "district": "Wa East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Selinvoya",
+      "district": "West Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Senta",
+      "district": "Mamprugu-Moagduri",
+      "region": "North East"
+    },
+    {
+      "name": "Seripe",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Sherigu",
+      "district": "Bolgatanga",
+      "region": "Upper East"
+    },
+    {
+      "name": "Shia",
+      "district": "Talensi",
+      "region": "Upper East"
+    },
+    {
+      "name": "Signekura",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Silbelle",
+      "district": "Sissala West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Silimanchu",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Siniensi",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Sirigu",
+      "district": "Kassena-Nankana West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Sisipe",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Soalepe",
+      "district": "West Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Soansobgi",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Sobayiri",
+      "district": "Jirapa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Sogla",
+      "district": "Wa East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Soma",
+      "district": "Sawla-Tuna-Kalba",
+      "region": "Savannah"
+    },
+    {
+      "name": "Sorbelle",
+      "district": "Sissala West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Sumniboma No.1",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Sumniboma No.2",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Taalipuo",
+      "district": "Lambussie Karni",
+      "region": "Upper West"
+    },
+    {
+      "name": "Tailorpe",
+      "district": "West Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Tainaboi",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Takoraya",
+      "district": "Nanumba South",
+      "region": "Northern"
+    },
+    {
+      "name": "Talkpa",
+      "district": "North Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Tamale",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Tamale North",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Tamankala",
+      "district": "Central Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Tambog",
+      "district": "Talensi",
+      "region": "Upper East"
+    },
+    {
+      "name": "Tampala",
+      "district": "Jirapa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Tampion",
+      "district": "Nanton",
+      "region": "Northern"
+    },
+    {
+      "name": "Tanchara",
+      "district": "Lawra",
+      "region": "Upper West"
+    },
+    {
+      "name": "Tandem",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Tanga",
+      "district": "Karaga",
+      "region": "Northern"
+    },
+    {
+      "name": "Tanga (bawku)",
+      "district": "Bawku West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Tangbini",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Tankpa",
+      "district": "Zabzugu",
+      "region": "Northern"
+    },
+    {
+      "name": "Tantuo",
+      "district": "Nandom",
+      "region": "Upper West"
+    },
+    {
+      "name": "Tantuosi",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Tatale",
+      "district": "Tatale Sanguli",
+      "region": "Northern"
+    },
+    {
+      "name": "Tatindo",
+      "district": "Tatale Sanguli",
+      "region": "Northern"
+    },
+    {
+      "name": "Temaa",
+      "district": "Yunyoo-Nasuan",
+      "region": "North East"
+    },
+    {
+      "name": "Tempane",
+      "district": "Tempane",
+      "region": "Upper East"
+    },
+    {
+      "name": "Tengzuk",
+      "district": "Talensi",
+      "region": "Upper East"
+    },
+    {
+      "name": "Terago",
+      "district": "Pusiga",
+      "region": "Upper East"
+    },
+    {
+      "name": "Teshie",
+      "district": "Bawku West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Tesung",
+      "district": "Garu",
+      "region": "Upper East"
+    },
+    {
+      "name": "Tianoba",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Tichirigitaba",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Tiedema",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Tilli",
+      "district": "Bawku West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Tinchangu",
+      "district": "Chereponi",
+      "region": "North East"
+    },
+    {
+      "name": "Tindan",
+      "district": "Yendi",
+      "region": "Northern"
+    },
+    {
+      "name": "Tindang",
+      "district": "Zabzugu",
+      "region": "Northern"
+    },
+    {
+      "name": "Tindongo",
+      "district": "Nabdam",
+      "region": "Upper East"
+    },
+    {
+      "name": "Tinguri",
+      "district": "West Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Tinkpanga",
+      "district": "North East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Tinniabe",
+      "district": "Wa East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Tinsungu",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Tintariga",
+      "district": "Bunkpurugu Nakpanduri",
+      "region": "North East"
+    },
+    {
+      "name": "Tizza",
+      "district": "Jirapa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Tokali",
+      "district": "Wa West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Tolon",
+      "district": "Tolon",
+      "region": "Northern"
+    },
+    {
+      "name": "Tomayiri",
+      "district": "Wa West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Tonayili",
+      "district": "Nanumba North",
+      "region": "Northern"
+    },
+    {
+      "name": "Tongo",
+      "district": "Talensi",
+      "region": "Upper East"
+    },
+    {
+      "name": "Tumu",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Tuna",
+      "district": "Sawla-Tuna-Kalba",
+      "region": "Savannah"
+    },
+    {
+      "name": "Tunni",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Tuopare",
+      "district": "Nandom",
+      "region": "Upper West"
+    },
+    {
+      "name": "Tuori",
+      "district": "Daffiama-Bussie-Issa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Tuzeaa",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Uwasi",
+      "district": "Builsa South",
+      "region": "Upper East"
+    },
+    {
+      "name": "Vamboi",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Vare",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Vea",
+      "district": "Bongo",
+      "region": "Upper East"
+    },
+    {
+      "name": "Vinving",
+      "district": "Jirapa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Vittin",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Wa",
+      "district": "Wa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Wahabu",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Walewale",
+      "district": "West Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Wallembelle",
+      "district": "Sissala East",
+      "region": "Upper West"
+    },
+    {
+      "name": "Wasendaw",
+      "district": "Saboba",
+      "region": "Northern"
+    },
+    {
+      "name": "Wechiau",
+      "district": "Wa West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Wiaga",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Widana",
+      "district": "Pusiga",
+      "region": "Upper East"
+    },
+    {
+      "name": "Widnaba",
+      "district": "Bawku West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Wiesi",
+      "district": "Builsa South",
+      "region": "Upper East"
+    },
+    {
+      "name": "Woriyanga",
+      "district": "Tempane",
+      "region": "Upper East"
+    },
+    {
+      "name": "Wotumu",
+      "district": "Sissala West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Wulensi",
+      "district": "Nanumba South",
+      "region": "Northern"
+    },
+    {
+      "name": "Wuntubiri",
+      "district": "Mamprugu-Moagduri",
+      "region": "North East"
+    },
+    {
+      "name": "Yagaba",
+      "district": "Mamprugu-Moagduri",
+      "region": "North East"
+    },
+    {
+      "name": "Yahayape",
+      "district": "East Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Yapala",
+      "district": "Nanumba North",
+      "region": "Northern"
+    },
+    {
+      "name": "Yapalsi",
+      "district": "Tamale",
+      "region": "Northern"
+    },
+    {
+      "name": "Yapei",
+      "district": "Central Gonja",
+      "region": "Savannah"
+    },
+    {
+      "name": "Yaroyili",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Yawgu",
+      "district": "Chereponi",
+      "region": "North East"
+    },
+    {
+      "name": "Yemo Karaga",
+      "district": "Karaga",
+      "region": "Northern"
+    },
+    {
+      "name": "Yendi",
+      "district": "Yendi",
+      "region": "Northern"
+    },
+    {
+      "name": "Yezebisi",
+      "district": "Mamprugu-Moagduri",
+      "region": "North East"
+    },
+    {
+      "name": "Yibile",
+      "district": "Wa",
+      "region": "Upper West"
+    },
+    {
+      "name": "Yikpabongu",
+      "district": "Mamprugu-Moagduri",
+      "region": "North East"
+    },
+    {
+      "name": "Yikpee",
+      "district": "Lawra",
+      "region": "Upper West"
+    },
+    {
+      "name": "Yipaala",
+      "district": "Builsa North",
+      "region": "Upper East"
+    },
+    {
+      "name": "Yipala",
+      "district": "Bole",
+      "region": "Savannah"
+    },
+    {
+      "name": "Yipieliga",
+      "district": "Tolon",
+      "region": "Northern"
+    },
+    {
+      "name": "Yiziri",
+      "district": "Nadowli Kaleo",
+      "region": "Upper West"
+    },
+    {
+      "name": "Yunyoo",
+      "district": "Yunyoo-Nasuan",
+      "region": "North East"
+    },
+    {
+      "name": "Zabzugu",
+      "district": "Zabzugu",
+      "region": "Northern"
+    },
+    {
+      "name": "Zambo",
+      "district": "Lawra",
+      "region": "Upper West"
+    },
+    {
+      "name": "Zandoya",
+      "district": "Talensi",
+      "region": "Upper East"
+    },
+    {
+      "name": "Zang",
+      "district": "Wa West",
+      "region": "Upper West"
+    },
+    {
+      "name": "Zangbalung",
+      "district": "Kumbungu",
+      "region": "Northern"
+    },
+    {
+      "name": "Zangbiyiri",
+      "district": "Mamprugu-Moagduri",
+      "region": "North East"
+    },
+    {
+      "name": "Zawse",
+      "district": "Binduri",
+      "region": "Upper East"
+    },
+    {
+      "name": "Zebilla",
+      "district": "Bawku West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Zikaya",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Zinindo",
+      "district": "Gushegu",
+      "region": "Northern"
+    },
+    {
+      "name": "Ziniya",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Zogiligu",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Zokuga",
+      "district": "Nanton",
+      "region": "Northern"
+    },
+    {
+      "name": "Zongoiri",
+      "district": "Bawku West",
+      "region": "Upper East"
+    },
+    {
+      "name": "Zoorizugu",
+      "district": "East Mamprusi",
+      "region": "North East"
+    },
+    {
+      "name": "Zoya",
+      "district": "Zabzugu",
+      "region": "Northern"
+    },
+    {
+      "name": "Zuarungu",
+      "district": "Bolgatanga East",
+      "region": "Upper East"
+    },
+    {
+      "name": "Zuo",
+      "district": "Tamale",
+      "region": "Northern"
+    }
+  ]
+}

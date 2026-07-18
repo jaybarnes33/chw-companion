@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@import "uniwind";
+
+@theme {
+  --color-background: #f1ecdf;
+  --color-foreground: #0b1127;
+  --color-card: #f1ecdf;
+  --color-card-foreground: #0b1127;
+  --color-popover: #faf8ff;
+  --color-popover-foreground: #0b1127;
+  --color-primary: #0b1127;
+  --color-primary-foreground: #f1ecdf;
+  --color-secondary: #a0410f;
+  --color-secondary-foreground: #ffffff;
+  --color-muted: #e7e2d5;
+  --color-muted-foreground: #46464d;
+  --color-accent: #ff8852;
+  --color-accent-foreground: #6e2600;
+  --color-destructive: #ba1a1a;
+  --color-destructive-foreground: #ffffff;
+  --color-border: #c7c6ce;
+  --color-input: #c7c6ce;
+  --color-ring: #575d77;
+
+  --color-shea: #f1ecdf;
+  --color-indigo-ink: #0b1127;
+  --color-clay: #a0410f;
+  --color-clay-bright: #b5501f;
+  --color-ember: #ba1a1a;
+  --color-ember-alert: #b23a2e;
+  --color-savanna: #2d6a4f;
+  --color-millet: #e9c46a;
+
+  --font-display: "IBMPlexSans_700Bold";
+  --font-headline: "IBMPlexSans_600SemiBold";
+  --font-body: "IBMPlexSans_400Regular";
+  --font-body-bold: "IBMPlexSans_700Bold";
+  --font-utility: "IBMPlexMono_500Medium";
+
+  --spacing-touch: 56px;
+  --spacing-mobile: 20px;
+  --spacing-section: 32px;
+  --radius: 0px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+}

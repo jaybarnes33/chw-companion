@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;700&family=Space+Grotesk:wght@600;700&display=swap');
+
+:root {
+  --shea: #F1ECDF;
+  --indigo-ink: #0b1127;
+  --clay: #a0410f;
+  --ember: #ba1a1a;
+  --savanna: #2D6A4F;
+  --millet: #E9C46A;
+  --on-surface: #141a31;
+  --on-surface-variant: #46464d;
+  --outline: #76767e;
+  --secondary-container: #ff8852;
+  --surface-tint: #575d77;
+  --on-primary-container: #878da9;
+  --background: var(--shea);
+  --foreground: var(--on-surface);
+}
+
+@theme inline {
+  --color-shea: var(--shea);
+  --color-indigo-ink: var(--indigo-ink);
+  --color-clay: var(--clay);
+  --color-ember: var(--ember);
+  --color-savanna: var(--savanna);
+  --color-millet: var(--millet);
+  --color-on-surface: var(--on-surface);
+  --color-on-surface-variant: var(--on-surface-variant);
+  --color-outline: var(--outline);
+  --color-secondary-container: var(--secondary-container);
+  --color-surface-tint: var(--surface-tint);
+  --color-on-primary-container: var(--on-primary-container);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "IBM Plex Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+body {
+  background: var(--shea);
+  color: var(--on-surface);
+  font-family: var(--font-body);
+}
+
+.fugu-pattern {
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 10px,
+    rgba(11, 17, 39, 0.03) 10px,
+    rgba(11, 17, 39, 0.03) 12px
+  );
+}
