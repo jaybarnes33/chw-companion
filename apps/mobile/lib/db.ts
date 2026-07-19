@@ -82,6 +82,18 @@ async function columnExists(
   return cols.some((c) => c.name === column);
 }
 
+async function getColumnMeta(
+  db: SQLite.SQLiteDatabase,
+  table: string,
+  column: string
+) {
+  const cols = await db.getAllAsync<{
+    name: string;
+    notnull: number;
+  }>(`PRAGMA table_info(${table})`);
+  return cols.find((c) => c.name === column) ?? null;
+}
+
 async function ensureColumn(
   db: SQLite.SQLiteDatabase,
   table: string,
@@ -93,6 +105,55 @@ async function ensureColumn(
       `ALTER TABLE ${table} ADD COLUMN ${column} ${definition}`
     );
   }
+}
+
+/** SQLite cannot ALTER COLUMN nullability — rebuild cases if riskTier is still NOT NULL. */
+async function ensureRiskTierNullable(db: SQLite.SQLiteDatabase) {
+  const risk = await getColumnMeta(db, "cases", "riskTier");
+  if (!risk || risk.notnull === 0) return;
+
+  await db.withTransactionAsync(async () => {
+    await db.execAsync(`
+      CREATE TABLE cases_migrated (
+        id TEXT PRIMARY KEY NOT NULL,
+        chwId TEXT NOT NULL,
+        patientType TEXT NOT NULL,
+        patientName TEXT,
+        patientSex TEXT,
+        ageValue INTEGER,
+        ageUnit TEXT,
+        community TEXT,
+        phone TEXT,
+        caregiverName TEXT,
+        caregiverPhone TEXT,
+        maternalStatus TEXT,
+        gestationalWeeks INTEGER,
+        notes TEXT,
+        consentAt TEXT,
+        status TEXT NOT NULL DEFAULT 'IN_PROGRESS',
+        createdAt TEXT NOT NULL,
+        updatedAt TEXT NOT NULL,
+        syncedAt TEXT,
+        riskTier TEXT
+      );
+    `);
+    await db.execAsync(`
+      INSERT INTO cases_migrated (
+        id, chwId, patientType, patientName, patientSex, ageValue, ageUnit,
+        community, phone, caregiverName, caregiverPhone, maternalStatus,
+        gestationalWeeks, notes, consentAt, status, createdAt, updatedAt, syncedAt, riskTier
+      )
+      SELECT
+        id, chwId, patientType, patientName,
+        patientSex, ageValue, ageUnit, community, phone, caregiverName, caregiverPhone,
+        maternalStatus, gestationalWeeks, notes, consentAt,
+        COALESCE(NULLIF(status, ''), CASE WHEN riskTier IS NOT NULL THEN 'COMPLETED' ELSE 'IN_PROGRESS' END),
+        createdAt, updatedAt, syncedAt, riskTier
+      FROM cases;
+    `);
+    await db.execAsync(`DROP TABLE cases;`);
+    await db.execAsync(`ALTER TABLE cases_migrated RENAME TO cases;`);
+  });
 }
 
 async function openAndMigrate() {
@@ -156,6 +217,8 @@ async function openAndMigrate() {
   await ensureColumn(db, "cases", "notes", "TEXT");
   await ensureColumn(db, "cases", "consentAt", "TEXT");
   await ensureColumn(db, "cases", "status", "TEXT NOT NULL DEFAULT 'IN_PROGRESS'");
+
+  await ensureRiskTierNullable(db);
 
   await db.runAsync(
     `UPDATE cases SET status = 'COMPLETED' WHERE riskTier IS NOT NULL AND (status IS NULL OR status = '')`
