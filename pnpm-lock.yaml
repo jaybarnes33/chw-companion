@@ -17,13 +17,13 @@ importers:
 
   apps/mobile:
     dependencies:
-      '@chw/content':
+      '@nyaaba/content':
         specifier: workspace:^
         version: link:../../packages/content
-      '@chw/rules-engine':
+      '@nyaaba/rules-engine':
         specifier: workspace:^
         version: link:../../packages/rules-engine
-      '@chw/ui':
+      '@nyaaba/ui':
         specifier: workspace:^
         version: link:../../packages/ui
       '@expo-google-fonts/ibm-plex-mono':
@@ -141,13 +141,13 @@ importers:
 
   apps/web:
     dependencies:
-      '@chw/content':
+      '@nyaaba/content':
         specifier: workspace:^
         version: link:../../packages/content
-      '@chw/db':
+      '@nyaaba/db':
         specifier: workspace:^
         version: link:../../packages/db
-      '@chw/rules-engine':
+      '@nyaaba/rules-engine':
         specifier: workspace:^
         version: link:../../packages/rules-engine
       clsx:
@@ -221,7 +221,7 @@ importers:
 
   packages/rules-engine:
     dependencies:
-      '@chw/content':
+      '@nyaaba/content':
         specifier: workspace:*
         version: link:../content
     devDependencies:

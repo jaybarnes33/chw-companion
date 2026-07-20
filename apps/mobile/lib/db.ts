@@ -1,5 +1,5 @@
-import type { PatientType, RiskTier } from "@chw/content";
-import type { ReferralStatus } from "@chw/rules-engine";
+import type { PatientType, RiskTier } from "@nyaaba/content";
+import type { ReferralStatus } from "@nyaaba/rules-engine";
 import * as SQLite from "expo-sqlite";
 
 export type PatientSex = "FEMALE" | "MALE" | "UNKNOWN";

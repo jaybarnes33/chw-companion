@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { prisma } from "@chw/db";
+import { prisma } from "@nyaaba/db";
 
 const AGOO_URL = "https://api.agoosms.com/v1/sms/send";
 

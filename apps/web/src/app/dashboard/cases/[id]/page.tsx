@@ -1,6 +1,6 @@
-import { prisma } from "@chw/db";
-import { getChecklistItem } from "@chw/content";
-import { referralStatusLabel } from "@chw/rules-engine";
+import { prisma } from "@nyaaba/db";
+import { getChecklistItem } from "@nyaaba/content";
+import { referralStatusLabel } from "@nyaaba/rules-engine";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 

@@ -122,7 +122,7 @@ def health_seed_rows() -> list[dict]:
             {
                 "english": tip["text"],
                 "dagbani": "",
-                "source": "chw-companion/nutrition.json",
+                "source": "nyaaba/nutrition.json",
                 "license": "app-content-prototype",
                 "domain": "health",
                 "verse_id": tip["key"],

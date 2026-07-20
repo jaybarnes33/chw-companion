@@ -9,8 +9,8 @@ import {
   upsertCase,
   upsertResponse,
 } from "@/lib/db";
-import { getChecklistByCategory } from "@chw/content";
-import { scoreCaseDetailed } from "@chw/rules-engine";
+import { getChecklistByCategory } from "@nyaaba/content";
+import { scoreCaseDetailed } from "@nyaaba/rules-engine";
 import cuid from "cuid";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { useEffect, useMemo, useState } from "react";

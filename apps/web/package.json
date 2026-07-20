@@ -9,9 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@chw/content": "workspace:^",
-    "@chw/db": "workspace:^",
-    "@chw/rules-engine": "workspace:^",
+    "@nyaaba/content": "workspace:^",
+    "@nyaaba/db": "workspace:^",
+    "@nyaaba/rules-engine": "workspace:^",
     "clsx": "^2.1.1",
     "lucide-react": "^1.25.0",
     "next": "15.5.20",

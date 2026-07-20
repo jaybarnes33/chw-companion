@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "expo-router/entry",
   "dependencies": {
-    "@chw/content": "workspace:^",
-    "@chw/rules-engine": "workspace:^",
-    "@chw/ui": "workspace:^",
+    "@nyaaba/content": "workspace:^",
+    "@nyaaba/rules-engine": "workspace:^",
+    "@nyaaba/ui": "workspace:^",
     "@expo-google-fonts/ibm-plex-mono": "^0.4.1",
     "@expo-google-fonts/ibm-plex-sans": "^0.4.1",
     "@expo/metro-runtime": "^57.0.6",

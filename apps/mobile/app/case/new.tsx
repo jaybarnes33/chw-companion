@@ -1,8 +1,8 @@
 import { FuguDivider } from "@/components/Fugu";
 import { TopAppBar } from "@/components/TopAppBar";
 import { Text } from "@/components/ui/text";
-import type { PatientType } from "@chw/content";
-import { colors } from "@chw/ui";
+import type { PatientType } from "@nyaaba/content";
+import { colors } from "@nyaaba/ui";
 import { MaterialIcons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
 import { Pressable, View } from "react-native";

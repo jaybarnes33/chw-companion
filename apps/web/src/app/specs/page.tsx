@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { checklistDisclaimer, nutritionDisclaimer } from "@chw/content";
+import { checklistDisclaimer, nutritionDisclaimer } from "@nyaaba/content";
 
 export default function SpecsPage() {
   return (
     <div className="min-h-screen bg-shea text-on-surface">
       <header className="flex h-14 items-center justify-between border-b-2 border-indigo-ink bg-indigo-ink px-5 text-white">
         <Link href="/" className="font-[family-name:var(--font-display)] font-semibold">
-          CHW COMPANION
+          NYAABA
         </Link>
         <Link href="/dashboard" className="text-xs uppercase tracking-widest">
           Dashboard

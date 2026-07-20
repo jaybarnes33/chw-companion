@@ -1,4 +1,4 @@
-# CHW Companion
+# Nyaaba
 
 Offline-first mobile companion for Community Health Workers (CHWs) at CHPS compounds in Northern Ghana — UNICEF StartUp Lab hackathon prototype.
 
@@ -10,15 +10,15 @@ Offline-first mobile companion for Community Health Workers (CHWs) at CHPS compo
 |---|---|
 | Mobile | Expo (Router), expo-sqlite, Expo Speech |
 | Web | Next.js App Router, Tailwind, district dashboard |
-| Shared | `@chw/content`, `@chw/rules-engine`, `@chw/ui` |
-| Cloud DB | PostgreSQL + Prisma (`@chw/db`) |
+| Shared | `@nyaaba/content`, `@nyaaba/rules-engine`, `@nyaaba/ui` |
+| Cloud DB | PostgreSQL + Prisma (`@nyaaba/db`) |
 | SMS | AgooSMS (`POST /api/sms/referral`) |
 
 ## Monorepo
 
 ```
-chw-companion/
-├── apps/mobile          # Expo CHW app
+nyaaba/
+├── apps/mobile          # Expo Nyaaba app
 ├── apps/web             # Landing + dashboard + sync/SMS API
 ├── packages/content     # checklist.json + nutrition.json
 ├── packages/rules-engine

@@ -1,8 +1,8 @@
 import { cn } from "@/lib/utils";
-import { riskColor } from "@chw/ui";
+import { riskColor } from "@nyaaba/ui";
 import { MaterialIcons } from "@expo/vector-icons";
 import { View } from "react-native";
-import type { RiskTier } from "@chw/content";
+import type { RiskTier } from "@nyaaba/content";
 
 const icons: Record<RiskTier, keyof typeof MaterialIcons.glyphMap> = {
   RED: "warning",

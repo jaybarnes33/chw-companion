@@ -12,13 +12,13 @@ import {
   type LocalCase,
 } from "@/lib/db";
 import { getPendingSyncCount, syncNow } from "@/lib/sync";
-import { colors } from "@chw/ui";
+import { colors } from "@nyaaba/ui";
 import { MaterialIcons } from "@expo/vector-icons";
 import { useFocusEffect, useRouter, type Href } from "expo-router";
 import { useCallback, useState } from "react";
 import { Pressable, ScrollView, View } from "react-native";
-import type { ReferralStatus } from "@chw/rules-engine";
-import { referralStatusLabel } from "@chw/rules-engine";
+import type { ReferralStatus } from "@nyaaba/rules-engine";
+import { referralStatusLabel } from "@nyaaba/rules-engine";
 
 type Row = LocalCase & { referralStatus?: ReferralStatus | null };
 
@@ -91,7 +91,7 @@ export default function HomeScreen() {
   return (
     <View className="flex-1 bg-shea">
       <TopAppBar
-        title="CHW Companion"
+        title="Nyaaba"
         onSync={() => setSheetOpen(true)}
         syncBadge={pending}
       />

@@ -6,7 +6,7 @@ export default function HomePage() {
     <div className="overflow-x-hidden bg-shea text-on-surface">
       <header className="fixed top-0 z-50 flex h-14 w-full items-center justify-between bg-shea px-5 md:px-20">
         <span className="font-[family-name:var(--font-display)] text-xl font-semibold tracking-tighter text-indigo-ink">
-          CHW COMPANION
+          NYAABA
         </span>
         <nav className="flex items-center gap-4">
           <Link
@@ -217,7 +217,7 @@ export default function HomePage() {
           <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-12 md:flex-row">
             <div className="max-w-xs">
               <h4 className="mb-6 font-[family-name:var(--font-display)] text-xl text-white">
-                CHW COMPANION
+                NYAABA
               </h4>
               <p className="text-on-primary-container">
                 UNICEF StartUp Lab — AI for Nurturing Care. Offline-first
@@ -263,7 +263,7 @@ export default function HomePage() {
           </div>
           <div className="mt-20 flex flex-col items-center justify-between gap-4 border-t border-white/5 pt-8 md:flex-row">
             <p className="font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-widest text-on-primary-container">
-              © 2026 CHW COMPANION · NORTHERN GHANA · HACKATHON PROTOTYPE
+              © 2026 NYAABA · NORTHERN GHANA · HACKATHON PROTOTYPE
             </p>
           </div>
         </footer>

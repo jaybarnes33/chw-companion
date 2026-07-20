@@ -1,5 +1,5 @@
 {
-  "name": "@chw/content",
+  "name": "@nyaaba/content",
   "version": "0.1.0",
   "private": true,
   "main": "./src/index.ts",

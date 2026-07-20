@@ -1,6 +1,6 @@
 "use server";
 
-import { prisma } from "@chw/db";
+import { prisma } from "@nyaaba/db";
 import { revalidatePath } from "next/cache";
 
 export async function updateReferralStatus(formData: FormData) {

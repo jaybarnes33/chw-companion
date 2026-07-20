@@ -2,7 +2,7 @@ import {
   getChecklistItem,
   type ChecklistItem,
   type RiskTier,
-} from "@chw/content";
+} from "@nyaaba/content";
 
 export type ChecklistAnswer = {
   itemKey: string;

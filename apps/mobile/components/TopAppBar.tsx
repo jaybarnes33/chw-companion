@@ -1,5 +1,5 @@
 import { Text } from "@/components/ui/text";
-import { colors } from "@chw/ui";
+import { colors } from "@nyaaba/ui";
 import { MaterialIcons } from "@expo/vector-icons";
 import { Pressable, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";

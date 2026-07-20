@@ -15,7 +15,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CHW Companion | Resilient Health Tools",
+  title: "Nyaaba | Resilient Health Tools",
   description:
     "Offline-first companion for CHWs at CHPS compounds in Northern Ghana — danger-sign checklists, deterministic risk tiers, and referral tracking.",
 };

@@ -1,6 +1,6 @@
 "use client";
 
-import { referralStatusLabel, REFERRAL_FLOW } from "@chw/rules-engine";
+import { referralStatusLabel, REFERRAL_FLOW } from "@nyaaba/rules-engine";
 
 type CaseCard = {
   id: string;

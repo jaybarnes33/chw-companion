@@ -1,6 +1,6 @@
 import { Text } from "@/components/ui/text";
 import { cn } from "@/lib/utils";
-import { colors } from "@chw/ui";
+import { colors } from "@nyaaba/ui";
 import { MaterialIcons } from "@expo/vector-icons";
 import { usePathname, useRouter } from "expo-router";
 import { Pressable, View } from "react-native";

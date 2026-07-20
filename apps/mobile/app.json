@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "CHW Companion",
-    "slug": "chw-companion",
+    "name": "Nyaaba",
+    "slug": "nyaaba",
     "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "scheme": "chw-companion",
+    "scheme": "nyaaba",
     "plugins": [
       "expo-router",
       "expo-font",
@@ -15,7 +15,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "org.chwcompanion.app"
+      "bundleIdentifier": "org.nyaaba.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -24,7 +24,7 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "package": "org.chwcompanion.app",
+      "package": "org.nyaaba.app",
       "predictiveBackGestureEnabled": false
     },
     "web": {

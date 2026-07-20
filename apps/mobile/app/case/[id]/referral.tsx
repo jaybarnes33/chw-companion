@@ -27,8 +27,8 @@ import {
   REFERRAL_FLOW,
   referralStatusLabel,
   type ReferralStatus,
-} from "@chw/rules-engine";
-import { colors } from "@chw/ui";
+} from "@nyaaba/rules-engine";
+import { colors } from "@nyaaba/ui";
 import { MaterialIcons } from "@expo/vector-icons";
 import cuid from "cuid";
 import { useLocalSearchParams, useRouter } from "expo-router";
@@ -75,7 +75,7 @@ export default function ReferralScreen() {
       });
       await upsertCase({ ...c, syncedAt: null, updatedAt: now });
 
-      const smsMessage = `CHW Companion: Referral for ${c.patientName ?? "patient"} (${c.patientType}, ${c.riskTier}) to ${DEMO_FACILITY}. Status: REFERRED.`;
+      const smsMessage = `Nyaaba: Referral for ${c.patientName ?? "patient"} (${c.patientType}, ${c.riskTier}) to ${DEMO_FACILITY}. Status: REFERRED.`;
       const sms = await sendReferralSms({
         caseId: id,
         to: DEMO_FACILITY_PHONE,
@@ -138,7 +138,7 @@ export default function ReferralScreen() {
       message: `Marked ${referralStatusLabel(next)}`,
       createdAt: now,
     });
-    const smsMessage = `CHW Companion update: referral ${id.slice(0, 8)} now ${next} at ${facility}.`;
+    const smsMessage = `Nyaaba update: referral ${id.slice(0, 8)} now ${next} at ${facility}.`;
     const sms = await sendReferralSms({
       caseId: id,
       to: DEMO_FACILITY_PHONE,

@@ -42,7 +42,7 @@ export default function SyncTab() {
 
   return (
     <View className="flex-1 bg-shea">
-      <TopAppBar title="CHW Companion" onSync={() => setOpen(true)} syncBadge={pending} />
+      <TopAppBar title="Nyaaba" onSync={() => setOpen(true)} syncBadge={pending} />
       <View className="gap-section p-mobile">
         <Text className="font-headline text-2xl text-indigo-ink">
           Daily Overview

@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { colors } from "@chw/ui";
+import { colors } from "@nyaaba/ui";
 import { View } from "react-native";
 
 export function FuguDivider() {

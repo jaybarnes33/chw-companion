@@ -1,6 +1,6 @@
-import { prisma } from "@chw/db";
-import { getChecklistItem } from "@chw/content";
-import { referralStatusLabel } from "@chw/rules-engine";
+import { prisma } from "@nyaaba/db";
+import { getChecklistItem } from "@nyaaba/content";
+import { referralStatusLabel } from "@nyaaba/rules-engine";
 import Link from "next/link";
 import { DashboardFilters } from "@/components/DashboardFilters";
 import { ReferralPipeline } from "@/components/ReferralPipeline";
@@ -60,7 +60,7 @@ export default async function DashboardPage({
       <header className="flex h-14 items-center justify-between border-b-2 border-indigo-ink bg-indigo-ink px-5 text-white md:px-10">
         <div className="flex items-center gap-6">
           <Link href="/" className="font-[family-name:var(--font-display)] text-lg font-semibold">
-            CHW COMPANION
+            NYAABA
           </Link>
           <span className="hidden text-xs uppercase tracking-widest text-white/70 md:inline">
             District dashboard

@@ -15,7 +15,7 @@ import {
   formatNorthernGhanaPlace,
   searchNorthernGhanaPlaces,
   type NorthernGhanaPlace,
-} from "@chw/content";
+} from "@nyaaba/content";
 import type { TriggerRef } from "@rn-primitives/select";
 import { MaterialIcons } from "@expo/vector-icons";
 import { useMemo, useRef, useState } from "react";

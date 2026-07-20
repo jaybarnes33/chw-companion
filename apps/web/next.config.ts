@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  transpilePackages: ["@chw/content", "@chw/rules-engine", "@chw/db"],
+  transpilePackages: ["@nyaaba/content", "@nyaaba/rules-engine", "@nyaaba/db"],
   serverExternalPackages: ["@prisma/client", "prisma"],
 };
 

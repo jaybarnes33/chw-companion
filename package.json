@@ -1,5 +1,5 @@
 {
-  "name": "chw-companion",
+  "name": "nyaaba",
   "private": true,
   "version": "0.1.0",
   "packageManager": "pnpm@9.1.4",
@@ -9,9 +9,9 @@
     "lint": "turbo run lint",
     "db:up": "docker compose up -d",
     "db:down": "docker compose down",
-    "db:migrate": "pnpm --filter @chw/db migrate",
-    "db:seed": "pnpm --filter @chw/db seed",
-    "db:generate": "pnpm --filter @chw/db generate"
+    "db:migrate": "pnpm --filter @nyaaba/db migrate",
+    "db:seed": "pnpm --filter @nyaaba/db seed",
+    "db:generate": "pnpm --filter @nyaaba/db generate"
   },
   "devDependencies": {
     "turbo": "^2.10.5",

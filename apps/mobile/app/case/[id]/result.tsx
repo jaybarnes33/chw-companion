@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Text } from "@/components/ui/text";
 import { getCase, getResponses } from "@/lib/db";
-import type { RiskTier } from "@chw/content";
-import { scoreCaseDetailed } from "@chw/rules-engine";
-import { colors, riskCanvas } from "@chw/ui";
+import type { RiskTier } from "@nyaaba/content";
+import { scoreCaseDetailed } from "@nyaaba/rules-engine";
+import { colors, riskCanvas } from "@nyaaba/ui";
 import { MaterialIcons } from "@expo/vector-icons";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { useEffect, useState } from "react";
@@ -45,7 +45,7 @@ export default function ResultScreen() {
   return (
     <View className="flex-1" style={{ backgroundColor: bg }}>
       <TopAppBar
-        title="CHW Companion"
+        title="Nyaaba"
         onBack={() => router.replace("/")}
         backgroundColor={bg}
         borderColor={`${colors.white}33`}

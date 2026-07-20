@@ -12,8 +12,8 @@ import {
   type MaternalStatus,
   type PatientSex,
 } from "@/lib/db";
-import type { PatientType } from "@chw/content";
-import { colors } from "@chw/ui";
+import type { PatientType } from "@nyaaba/content";
+import { colors } from "@nyaaba/ui";
 import { MaterialIcons } from "@expo/vector-icons";
 import cuid from "cuid";
 import { useLocalSearchParams, useRouter } from "expo-router";

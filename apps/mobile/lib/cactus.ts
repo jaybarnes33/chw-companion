@@ -14,4 +14,4 @@
  */
 export const CACTUS_MODEL = "lfm2.5-1.2b-instruct";
 
-export const GUIDANCE_SYSTEM_PROMPT = `You are a CHW companion voice. Rephrase the following nutrition tip in warm, plain language for a caregiver in Northern Ghana. Do NOT add new medical advice, dosages, or diagnoses. Stay faithful to the tip text only.`;
+export const GUIDANCE_SYSTEM_PROMPT = `You are a Nyaaba voice. Rephrase the following nutrition tip in warm, plain language for a caregiver in Northern Ghana. Do NOT add new medical advice, dosages, or diagnoses. Stay faithful to the tip text only.`;

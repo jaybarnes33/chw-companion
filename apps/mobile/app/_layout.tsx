@@ -1,7 +1,7 @@
 import "../global.css";
 import { GuidanceProvider } from "@/lib/guidance-context";
 import { CHW_THEME } from "@/lib/theme";
-import { colors } from "@chw/ui";
+import { colors } from "@nyaaba/ui";
 import { ThemeProvider } from "expo-router/react-navigation";
 import {
   IBMPlexMono_500Medium,

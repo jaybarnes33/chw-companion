@@ -13,7 +13,7 @@ import {
   type MaternalStatus,
   type PatientSex,
 } from "./db";
-import type { PatientType, RiskTier } from "@chw/content";
+import type { PatientType, RiskTier } from "@nyaaba/content";
 
 const API_URL =
   process.env.EXPO_PUBLIC_API_URL ?? "http://localhost:3000";
