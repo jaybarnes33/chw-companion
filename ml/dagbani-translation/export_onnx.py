@@ -42,28 +42,39 @@ def main() -> None:
             "Missing deps. pip install -r requirements.txt (needs optimum[onnxruntime])"
         ) from e
 
-    adapter_cfg = args.model_dir / "adapter_config.json"
-    export_src = args.model_dir
+    model_dir = args.model_dir.resolve()
+    if not model_dir.exists():
+        raise SystemExit(
+            f"Checkpoint not found: {model_dir}\n"
+            "Train first: python train.py --epochs 3 --merge-adapter --output-dir ./artifacts/checkpoint"
+        )
+
+    adapter_cfg = model_dir / "adapter_config.json"
+    export_src = model_dir
     if adapter_cfg.exists():
         print("[ok] merging LoRA before ONNX export")
         merged_dir = args.output_dir / "_merged_tmp"
         if merged_dir.exists():
             shutil.rmtree(merged_dir)
         base = AutoModelForSeq2SeqLM.from_pretrained(args.base_model)
-        model = PeftModel.from_pretrained(base, str(args.model_dir))
+        model = PeftModel.from_pretrained(base, str(model_dir))
         model = model.merge_and_unload()
         model.save_pretrained(merged_dir)
         tok = AutoTokenizer.from_pretrained(
-            args.model_dir if (args.model_dir / "tokenizer_config.json").exists() else args.base_model
+            model_dir if (model_dir / "tokenizer_config.json").exists() else args.base_model
         )
         tok.save_pretrained(merged_dir)
         export_src = merged_dir
 
     print(f"[ok] exporting ONNX from {export_src}")
-    ort_model = ORTModelForSeq2SeqLM.from_pretrained(export_src, export=True)
+    ort_model = ORTModelForSeq2SeqLM.from_pretrained(
+        str(export_src.resolve()),
+        export=True,
+        local_files_only=True,
+    )
     fp_dir = args.output_dir / "fp32"
     ort_model.save_pretrained(fp_dir)
-    tok = AutoTokenizer.from_pretrained(export_src)
+    tok = AutoTokenizer.from_pretrained(str(export_src.resolve()), local_files_only=True)
     tok.save_pretrained(fp_dir)
 
     out_dir = fp_dir

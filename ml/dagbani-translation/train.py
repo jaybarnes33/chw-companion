@@ -33,7 +33,14 @@ def load_split(data_dir: Path, split: str) -> Dataset:
         df = pd.read_parquet(path_parquet)
     else:
         raise SystemExit(f"Missing {path_csv}. Run prepare_data.py first.")
-    df = df[(df["english"].astype(str).str.strip() != "") & (df["dagbani"].astype(str).str.strip() != "")]
+    df = df.dropna(subset=["english", "dagbani"]).copy()
+    df["english"] = df["english"].astype(str).str.strip()
+    df["dagbani"] = df["dagbani"].astype(str).str.strip()
+    bad = {"", "nan", "none", "null"}
+    df = df[
+        (~df["english"].str.lower().isin(bad))
+        & (~df["dagbani"].str.lower().isin(bad))
+    ]
     return Dataset.from_pandas(df[["english", "dagbani"]], preserve_index=False)
 
 
@@ -70,7 +77,9 @@ def main() -> None:
     model.print_trainable_parameters()
 
     def preprocess(batch):
-        inputs = [PREFIX + t for t in batch["english"]]
+        # Coerce to plain str — Arrow/pandas can leave None/float NaN in batches
+        inputs = [PREFIX + str(t) for t in batch["english"]]
+        targets = [str(t) for t in batch["dagbani"]]
         model_inputs = tokenizer(
             inputs,
             max_length=args.max_source_length,
@@ -78,7 +87,7 @@ def main() -> None:
             padding=False,
         )
         labels = tokenizer(
-            text_target=batch["dagbani"],
+            targets,
             max_length=args.max_target_length,
             truncation=True,
             padding=False,

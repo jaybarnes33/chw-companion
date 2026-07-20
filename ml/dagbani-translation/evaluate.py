@@ -11,7 +11,8 @@ from pathlib import Path
 import pandas as pd
 import sacrebleu
 import torch
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, PeftModel
+from peft import PeftModel
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
 ROOT = Path(__file__).resolve().parent
 PREFIX = "translate English to Dagbani: "
@@ -27,13 +28,20 @@ REVIEW_FOCUS = [
 
 
 def load_model(model_dir: Path, base_model: str):
-    tokenizer = AutoTokenizer.from_pretrained(model_dir if (model_dir / "tokenizer_config.json").exists() else base_model)
+    model_dir = model_dir.resolve()
+    if not model_dir.exists():
+        raise SystemExit(
+            f"Checkpoint not found: {model_dir}\n"
+            "Train first: python train.py --epochs 3 --merge-adapter --output-dir ./artifacts/checkpoint"
+        )
+    tok_src = model_dir if (model_dir / "tokenizer_config.json").exists() else base_model
+    tokenizer = AutoTokenizer.from_pretrained(tok_src)
     adapter_cfg = model_dir / "adapter_config.json"
     if adapter_cfg.exists():
         base = AutoModelForSeq2SeqLM.from_pretrained(base_model)
         model = PeftModel.from_pretrained(base, str(model_dir))
     else:
-        model = AutoModelForSeq2SeqLM.from_pretrained(model_dir)
+        model = AutoModelForSeq2SeqLM.from_pretrained(str(model_dir), local_files_only=True)
     model.eval()
     return tokenizer, model
 
